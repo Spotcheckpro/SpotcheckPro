@@ -1,0 +1,19 @@
+version: "3.8"
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - db
+    restart: unless-stopped
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: spotcheck
+      POSTGRES_PASSWORD: spotcheck
+      POSTGRES_DB: spotcheckdb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:
