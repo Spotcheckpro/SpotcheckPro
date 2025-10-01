@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: spotcheckpremium
+    env: node
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server/server.js"
+    autoDeploy: true
+

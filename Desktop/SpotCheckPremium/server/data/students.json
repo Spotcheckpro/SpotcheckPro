@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "Student One",
+    "schoolId": 1
+  },
+  {
+    "id": 2,
+    "name": "Student Two",
+    "schoolId": 1
+  },
+  {
+    "id": 3,
+    "name": "Student Three",
+    "schoolId": 2
+  }
+]
