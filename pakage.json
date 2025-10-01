@@ -1,0 +1,20 @@
+{
+  "name": "spotcheckpremium",
+  "version": "1.0.0",
+  "description": "SpotCheckPremium – AI-powered remote monitoring & invigilation for online learning and homeschooling.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "nodemon server/server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "node-fetch": "^2.6.12"
+  },
+  "engines": {
+    "node": ">=18 <23"
+  },
+  "license": "MIT"
+}
