@@ -1,10 +1,7 @@
-
 services:
   - type: web
-    name: spotcheckpremium
+    name: spotcheckpro
     env: node
-    buildCommand: npm install --prefix server
-    startCommand: node server/server.js
-    envVars:
-      - key: NODE_ENV
-        value: production
+    plan: free
+    buildCommand: "npm install"
+    startCommand: "node server/server.js"
