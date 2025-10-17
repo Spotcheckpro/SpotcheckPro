@@ -1,0 +1,7 @@
+﻿# Ignore Windows system folders
+AppData/
+*.lnk
+NTUSER.DAT*
+venv/
+.DS_Store
+*.log

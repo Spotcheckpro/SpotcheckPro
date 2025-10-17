@@ -1,0 +1,15 @@
+﻿{
+  "name": "spotcheckpremium",
+  "version": "1.0.0",
+  "description": "SpotCheckPro deployment on Render",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js"
+  },
+  "engines": {
+    "node": ">=18.x"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
